@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(30, 29, 28);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 15px solid white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.container input{
+    height: 6rem;
+    width: 32rem;
+    border: none;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84,8484,0.1);
+    font-size: 49px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+
+}
+imput::placeholder-shown{
+    color: white;
+}
+.but{
+    border: none;
+    height:100px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: rgb(247, 247, 242);
+    font-size: 3rem;
+    box-shadow: -3px -3px 1px rgb(187, 76, 76);
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.equalbutton{
+    background-color: rgb(223, 124, 11);
+}
+.operator{
+    color: rgb(73, 227, 59);
+}
