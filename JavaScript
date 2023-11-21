@@ -1,0 +1,16 @@
+function appendToDisplay(value) {
+    document.getElementById("in").value += value;
+}
+
+function clearDisplay() {
+    document.getElementById("in").value = '';
+}
+
+function calculateResult() {
+    try {
+        document.getElementById("in").value = eval(document.getElementById("in").value);
+    } catch (error) {
+        document.getElementById("in").value = 'Error';
+    }
+}
+
